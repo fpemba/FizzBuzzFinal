@@ -8,7 +8,7 @@ public class FizzBuzzApp {
 
         for (int i = 0; i <= 100; i++) {
 
-            System.out.println(game);
+            System.out.println(game.interpret(i));
         }
     }
 
